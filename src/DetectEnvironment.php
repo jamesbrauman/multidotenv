@@ -1,4 +1,4 @@
-<?php namespace MultiDotEnv;
+<?php namespace TheSnackalicious\MultiDotEnv;
 
 use Dotenv;
 use Illuminate\Contracts\Foundation\Application;

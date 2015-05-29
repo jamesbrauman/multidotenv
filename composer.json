@@ -1,0 +1,22 @@
+{
+    "name": "thesnackalicious/multidotenv",
+    "description": "Simple per-environment .env files for Laravel 5.",
+    "license": "MIT",
+	"keywords": ["laravel", "environment", ".env"],
+    "authors": [
+        {
+            "name": "James Brauman",
+            "email": "fake@notreal.com"
+        }
+    ],
+    "require": {
+	    "php": ">=5.4.0",
+	    "laravel/framework": "5.0.*",
+	    "vlucas/phpdotenv": "~1.0"
+    },
+	"autoload": {
+		"psr-4": {
+			"TheSnackalicious\\MultiDotEnv\\": "src/"
+		}
+	}
+}

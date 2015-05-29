@@ -4,7 +4,7 @@
 multidotenv is a package for Laravel 5 that provides functionality to load an additional environment-specific .env file.
 
 ## How it works
-Laravel 5 uses the [dotenv](https://github.com/bkeepers/dotenv) package to load the `.env` file in the root directory. This package extends the Laravel 5 so that an additional `.env` file is loaded depending on the environment.
+Laravel 5 uses the [dotenv](https://github.com/bkeepers/dotenv) package to load the `.env` file in the root directory. multidotenv extends Laravel 5 so that an additional `.env` file is loaded depending on the environment name.
 
 For example, given a `.env` file containing:
 ```

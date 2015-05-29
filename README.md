@@ -17,7 +17,7 @@ and a `.env.testing` file containing:
 ```
 DB_DATABASE=my_project_testing
 ```
-when running the command `php artisan migrate --testing` the loaded enviroment variables would be:
+when running the command `php artisan migrate --env=testing` the loaded enviroment variables would be:
 ```
 DB_HOST=localhost
 DB_DATABASE=my_project_testing

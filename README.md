@@ -24,6 +24,12 @@ DB_DATABASE=my_project_testing
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
+Note that this package will always load `.env.APP_ENV` if it exists. If you have not defined `APP_ENV` in your `.env` file Laravel 5 will use `production` by default.
+
+### What about HTTP requests?
+You can leverage the 'always loading' functionality mentioned above to load a per-environment `.env` file for HTTP requests too.
+
+For example in your `.env` file set your `APP_ENV` variable to `foo`. Now even over HTTP requests the `.env.foo` file will be loaded if it exists.
 
 ## Installation
 

@@ -42,7 +42,7 @@ $ composer update
 ```
 
 ### Update Web Kernel and Console Kernal
-Add a `boostrappers()` function to the `app/Http/Kernel.php` file and the `app/Console/Kernel.php` file:
+Add a `bootrappers()` function to the `app/Http/Kernel.php` file and the `app/Console/Kernel.php` file:
 ```
 /**
  * Get the bootstrap classes for the application.

@@ -19,6 +19,9 @@ class DetectEnvironment extends BaseDetectEnvironment {
         $envFile = '.env.' . $app->environment();
 
         if (file_exists($app->basePath() . DIRECTORY_SEPARATOR . $envFile))
+	{
+	    Dotenv::makeMutable();
             Dotenv::load($app->basePath(), $envFile);
+	}
     }
 }
